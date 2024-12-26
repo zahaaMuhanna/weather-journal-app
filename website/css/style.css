@@ -1,0 +1,53 @@
+/* Basic styling - you can customize this */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-image: url('../image/weather-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+html{
+    height:100%; /* Set html height to 100%*/
+  }
+  
+.holder{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#zip{
+    padding:8px;
+}
+
+#zip, #feelings{
+    border-color: darkred;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#generate{
+    background-color: darkcyan;
+    color: #fff;
+    padding: 10px;
+    width: 35%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 109px;
+    margin-top: 15px;
+}
+
+#entryHolder{
+    margin-top: 20px;
+}
