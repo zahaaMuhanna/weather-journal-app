@@ -58,8 +58,8 @@ This will run the Express server and begin handling requests for weather data.
 
 ## Outcome Images
 
-![Initial UI](C:\Users\Zahaa Muhanna\Pictures\Screenshots\outcome1)
+![Initial UI](outcome1.png)
 
 *   **UI After Fetching Weather Data:**
 
-![UI after fetching data](C:\Users\Zahaa Muhanna\Pictures\Screenshots\outcome2)
+![UI after fetching data](outcome2.png)
