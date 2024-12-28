@@ -38,3 +38,28 @@ Run the following command to install the required packages:
 ```bash
 npm install express cors body-parser
 ```
+
+### 2. Start the Server
+
+To start the server, use the following command in your terminal:
+
+```bash
+node server.js
+```
+This will run the Express server and begin handling requests for weather data.
+
+## Development Strategy
+
+*  **Project Setup:** Initialized the project environment, ensured Node.js and necessary packages were installed, and configured the server in the server.js file.
+*  **API Integration:** Acquired an API key from the OpenWeatherMap website and created asynchronous functions to fetch weather data based on the user’s location.
+*  **Server Routes:** Created POST and GET routes to manage data retrieval and posting to the server.
+*  **UI Dynamic Update:**  Designed a function that dynamically updates the UI with the fetched weather data.
+*  **Weather Data Fetching:** Implemented asynchronous code to fetch the weather data and store it on the local server.
+
+## Outcome Images
+
+![Initial UI](C:\Users\Zahaa Muhanna\Pictures\Screenshots\outcome1)
+
+*   **UI After Fetching Weather Data:**
+
+![UI after fetching data](C:\Users\Zahaa Muhanna\Pictures\Screenshots\outcome2)
