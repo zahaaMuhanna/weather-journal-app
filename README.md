@@ -44,7 +44,7 @@ npm install express cors body-parser
 To start the server, use the following command in your terminal:
 
 ```bash
-node server.js
+node server/server.js
 ```
 This will run the Express server and begin handling requests for weather data.
 
